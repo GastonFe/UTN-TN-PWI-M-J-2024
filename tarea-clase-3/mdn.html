@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mdn</title>
+</head>
+<body>
+    <h2>Counting using console.count()</h2>
+    <p>Why not add a counter to your logs to find out how often something happens? <a href="">console.count()</a> is a great built-in method that you can use to count events away to your heart's content:</p>
+    <div>
+        <pre>
+            function postBoostClicked() {
+            // My post has been boosted, do something here
+            console.count("Boost count");
+            }
+        
+            postBoostClicked();
+            // Boost count: 1
+            postBoostClicked();
+            // Boost count: 2
+        </pre>
+    </div>
+    
+</body>
+</html>
